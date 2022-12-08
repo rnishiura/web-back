@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    {% for item in object_list %}
+    <p>名前：{{ item.description }}</p>
+    <p>年齢：<img src="{{ item.document }}" alt="" /></p>
+    {% endfor %}
+  </body>
+</html>
